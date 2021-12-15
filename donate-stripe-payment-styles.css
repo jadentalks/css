@@ -1,0 +1,63 @@
+/* FIX TABLE ELEMENTS SO UNIQUE TO STRIPE TABLE - RIGHT NOW THIS CODE IS SITEWIDE AND ANNOYING*/
+table, th, td {
+    border:0px solid black;
+    padding-bottom: 5px;
+  }
+
+a.stripeonetime:link, a.stripeonetime:visited /*a class="stripeonetime"*/ {
+    width: 30px;
+    border-radius: 15px;
+    background-color: #154360;
+    color: #fff;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    
+  }
+  
+a.stripeonetime:hover, a.stripeonetime:active /*a class="stripeonetime"*/ {
+    width: 30px;
+    border-radius: 15px;
+    background-color: #f44336;
+    background-image: linear-gradient(red, indigo);
+    color: #fff;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    
+  }
+  
+a.striperecurring:link, a.striperecurring:visited /*a class="striperecurring"*/ {
+    width: 30px;
+    border-radius: 15px;
+    background-color: #154360;
+    color: #fff;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    
+  }
+  
+a.striperecurring:hover, a.striperecurring:active /*a class="striperecurring"*/ {
+    width: 30px;
+    border-radius: 15px;
+    background-color: #f44336;
+    background-image: linear-gradient(yellow, green);
+    color: #000;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    
+  }

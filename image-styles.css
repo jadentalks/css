@@ -1,0 +1,26 @@
+
+
+#avatar-img /* id="avatar-img"*/ {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #000;
+  }
+  
+#stripelogo-img /* id="stripe-img"*/  {
+    vertical-align: middle;
+    width: 120px;
+  }
+  
+#paypalqr-img /* id="paypalqr-img"*/  {
+    width: 115px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    text-decoration: none;
+    background-color: #fff;
+  } 
+  
+#venmoqr-img /* id="venmoqr-img"*/  {
+    width: 100px;
+  }
